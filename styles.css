@@ -8,7 +8,7 @@ header {
     margin-bottom: 1rem;
 }
 
-form,
+#form,
 .toolbar {
     display: flex;
     gap: .5rem;
@@ -26,6 +26,11 @@ ul {
 
 li {
     margin: .25rem 0;
+}
+
+button,
+li {
+    cursor: pointer;
 }
 
 .empty {
